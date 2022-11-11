@@ -1,0 +1,170 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    list-style: none; 
+    margin-right: 2vw;
+}
+
+.navlist{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.navlist>li{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 150%;
+    
+}
+
+.title{
+    margin-left: 2vw;
+    font-size: 250%;
+    font-weight: normal;
+}
+
+
+.gridcontainer1{
+    display: grid;
+    grid-template-columns:  20vw 20vw 20vw 20vw auto;
+    grid-gap: 30px;
+    
+}
+
+.gridcontainer1>div{
+    text-align: center;
+    
+}
+
+.item1a{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+.item2a{
+    border: black 2px solid;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item3a{
+    border: black 2px solid;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.item2aa{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+
+.item3aa{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+
+.item2ac{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.item4a{
+    border: black 2px solid;
+    display:grid;
+    grid-template-rows: auto auto;
+}
+
+.item4ab>img{
+    width: 10vw;
+    height: 10vw;
+}
+
+.gridcontainer1a{
+    display: grid;
+    grid-template-columns:  20vw 20vw 20vw 20vw;
+    grid-gap: 30px;
+    
+    margin-left: 8vw;
+    
+}
+
+.gridcontainer1a>div{
+    text-align: center;
+}
+
+.item1aa{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+img{
+    width: 20vw;
+    height: 15vw;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1{
+    font-weight: normal;
+}
+
+h2{
+    font-weight: normal;
+}
+
+h3{
+    font-weight: normal;
+}
+
+h4{
+    font-weight: normal;
+}
+
+h5{
+    font-weight: normal;
+}
+
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+
+a {
+    text-decoration: none; color: #00241B;
+}
+
+a:hover {
+    color: #4E878C;
+}
+
+a:focus {
+    color: #4E878C;
+}
+
+body {
+    background-color: #B5FFE1;
+}
