@@ -149,9 +149,16 @@ p{
     padding-right: 10px;
 }
 
+.bruh{
+    text-align: center;
 
+}
 
-
+footer{
+    margin-top: 10vw;
+    border-top: black solid 2px;
+    vertical-align: bottom;
+}
 
 a {
     text-decoration: none; color: #00241B;
